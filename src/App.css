@@ -1,0 +1,115 @@
+body {
+background-image: url("morning-rt.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+background-color: rgba(139, 30, 39, 0.273);
+}
+
+.app {
+  display:flex;
+  justify-content:center;
+}
+
+.content {
+  background-color: #f5efe688;
+  width: 30%;
+  padding: 20px;
+  border-radius: 15px;
+  margin-top:10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.crossed {
+  text-decoration: line-through 2px rgba(76, 165, 76, 0.912);
+  background-color:  rgba(88, 161, 88, 0.318);
+}
+
+ul, li {
+  list-style-type: none;
+  padding: 5px 10px;
+  margin: 5px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+li {
+  background-color: #f5efe688;
+  border-radius: 15px;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+input, button {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.btnAdd {
+  background-color: #FFDE00;
+}
+
+button {
+  margin-top: 5px;
+  border: none;
+  border-radius: 30px;
+  padding: 5px ;
+  width: 40%;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ffb700cf;
+}
+
+.btnClear {
+  background-color: #F57328;
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+  margin: 10px;
+  font-family: 'Open Sans', sans-serif;
+  border-radius: 15px;
+  border: 1px solid grey;
+}
+
+@media all and (max-width:800px) {
+  .content{
+    width: 60%;
+  }
+
+
+
+  h1 {
+    font-size: 30px;
+  }
+
+}     
+
+@media all and (max-width:500px) {
+  .content{
+    width: 80%;
+  }
+
+  button {
+    width: 50%
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+} 
